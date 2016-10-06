@@ -1,0 +1,31 @@
+{
+  "name": "minoss-example",
+  "title": "Minoss Example Module",
+  "version": "0.1.0",
+  "description": "Example Module for Minoss",
+  "homepage": "http://eisbehr.de/",
+  "bugs": "http://github.com/eisbehr-/minoss-hue/issues",
+  "author": {
+    "name": "Daniel 'Eisbehr' Kern",
+    "email": "jquery@eisbehr.de",
+    "url": "http://eisbehr.de/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eisbehr-/minoss-hue.git"
+  },
+  "keywords": [
+    "minoss",
+    "example"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+      "type": "GPL-2.0",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    }
+  ]
+}
