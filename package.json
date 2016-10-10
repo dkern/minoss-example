@@ -1,10 +1,11 @@
 {
   "name": "minoss-example",
-  "title": "Minoss Example Module",
+  "title": "Example Module for Minoss",
   "version": "0.1.0",
   "description": "Example Module for Minoss",
-  "homepage": "http://eisbehr.de/",
-  "bugs": "http://github.com/eisbehr-/minoss-hue/issues",
+  "main": "package.json",
+  "homepage": "https://github.com/eisbehr-/minoss-example",
+  "bugs": "https://github.com/eisbehr-/minoss-example/issues",
   "author": {
     "name": "Daniel 'Eisbehr' Kern",
     "email": "jquery@eisbehr.de",
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:eisbehr-/minoss-hue.git"
+    "url": "git@github.com:eisbehr-/minoss-example.git"
   },
   "keywords": [
     "minoss",
