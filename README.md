@@ -6,7 +6,7 @@ More information about this can be found in the [`Minoss documentation`](https:/
 ## Table Of Contents
 * [Installation](#installation)
 * [Available Examples](#available-examples)
-* [Call an Example](#call-anexample)
+* [Call an Example](#call-an-example)
 * [Create an own Module](#create-an-own-module)
   * [1. Create an Module folder](#1-create-an-module-folder)
   * [2. Create a Script file](#2-create-a-script-file)
@@ -14,9 +14,9 @@ More information about this can be found in the [`Minoss documentation`](https:/
   * [4. Error Messages as Response](#4-error-messages-as-response)
     * [Return Error by response data](#return-error-by-response-data)
     * [Return Error by callback](#return-error-by-callback)
-    * [Optional: Add a `package.json` to your Module](#optional-add-a-package.json-to-your-module)
+    * [Optional: Add a `package.json` to your Module](#optional-add-a-packagejson-to-your-module)
 * [Make your Module available to others](#make-your-module-available-to-others)
-* [Naming Convention](#naming-vonvention)
+* [Naming Convention](#naming-convention)
 * [Publish to `npm`](#publish-to-npm)
 
 
