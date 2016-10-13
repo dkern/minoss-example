@@ -1,6 +1,10 @@
 # Example Module for Minoss
-This is an example module to show how to easily create own projects for `Minoss` and creating own scripts.
-More information about this can be found in the [`Minoss documentation`](https://github.com/eisbehr-/minoss#create-an-own-module).
+[![GitHub version](https://badge.fury.io/gh/eisbehr-%2Fminoss-example.svg)](http://github.com/eisbehr-/minoss-example)
+[![NPM version](https://badge.fury.io/js/minoss-example.svg)](http://www.npmjs.org/package/minoss-example)
+[![Dependency version](https://david-dm.org/eisbehr-/minoss-example.png)](https://david-dm.org/eisbehr-/minoss-example)
+
+This is an example module to show how to easily create own projects for [Minoss](https://github.com/eisbehr-/minoss) and creating own scripts.
+More information about this can be found in the [Minoss documentation](https://github.com/eisbehr-/minoss#create-an-own-module).
 
 
 ## Table Of Contents
@@ -18,6 +22,9 @@ More information about this can be found in the [`Minoss documentation`](https:/
 * [Make your Module available to others](#make-your-module-available-to-others)
 * [Naming Convention](#naming-convention)
 * [Publish to `npm`](#publish-to-npm)
+* [Bugs / Feature request](#bugs--feature-request)
+* [License](#license)
+* [Donation](#donation)
 
 
 ---
@@ -48,8 +55,8 @@ The execution of these example is [the same](https://github.com/eisbehr-/minoss#
 Just call the name of the module and the name of the script by appending it to the request URL.
 
 ```TEXT
-format:  http://hostname:{PORT}/{MODULE}/{SCRIPT}
-example: http://localhost:8080/example/async
+format:   http://hostname:{PORT}/{MODULE}/{SCRIPT}
+example:  http://localhost:8080/example/async
 ```
 
 
@@ -204,3 +211,19 @@ Then you can [`publish`](https://docs.npmjs.com/cli/publish) your module with a 
 ### Naming Convention
 Only convention for public modules for Minoss is, that the name of the module have to start with `minoss-`, like `minoss-example`.
 This helps to identify such modules and is needed for auto-loading these modules when installed with `npm`.
+
+
+## Bugs / Feature request
+Please [report](http://github.com/eisbehr-/minoss-example/issues) bugs and feel free to [ask](http://github.com/eisbehr-/minoss-example/issues) for new features directly on GitHub.
+
+
+## License
+Minoss Example is dual-licensed under [MIT](http://www.opensource.org/licenses/mit-license.php) and [GPL-2.0](http://www.gnu.org/licenses/gpl-2.0.html) license.
+
+
+## Donation
+_You like to support me?_  
+_You appreciate my work?_  
+_You use it in commercial projects?_  
+  
+Feel free to make a little [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93XQ8EYMSWHC6)! :wink:
