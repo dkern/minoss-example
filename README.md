@@ -106,7 +106,7 @@ With this in mind, the server can handle everything, even asynchronous tasks.
 // - 'params' contains the url given parameters
 // - 'respond' is a callback function to tell the server the script is finished
 // - 'error' is an optional callback you can use to respond errors and failed executions
-module.exports = function(config, params, respond, error) {
+module.exports = (config, params, respond, error) => {
     // call the 'respond' callback whenever the script is finished
     respond({success: true});
 };
@@ -136,8 +136,8 @@ To append data to the output just add more properties to the `object`.
 ```JS
 respond({
     success: true,
-    hello: "world",
-    foo: "bar",
+    hello: 'world',
+    foo: 'bar',
 });
 ```
 
@@ -155,7 +155,7 @@ So you could pass both to the `respond` callback manually.
 ```JS
 respond({
     success: false,
-    error: "the error message"
+    error: 'the error message'
 });
 ```
 
@@ -166,8 +166,8 @@ With this you can the error message directly to the response.
 Everything else will be handled automatically.
 
 ```JS
-module.exports = function(config, params, respond, error) {
-    error("the error message");
+module.exports = (config, params, respond, error) => {
+    error('the error message');
 };
 ```
 
