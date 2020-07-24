@@ -1,10 +1,10 @@
 # Example Module for Minoss
-[![GitHub version](https://badge.fury.io/gh/eisbehr-%2Fminoss-example.svg)](http://github.com/eisbehr-/minoss-example)
+[![GitHub version](https://badge.fury.io/gh/dkern%2Fminoss-example.svg)](http://github.com/dkern/minoss-example)
 [![NPM version](https://badge.fury.io/js/minoss-example.svg)](http://www.npmjs.org/package/minoss-example)
-[![Dependency version](https://david-dm.org/eisbehr-/minoss-example.png)](https://david-dm.org/eisbehr-/minoss-example)
+[![Dependency version](https://david-dm.org/dkern/minoss-example.png)](https://david-dm.org/dkern/minoss-example)
 
-This is an example module to show how to easily create own projects for [Minoss](https://github.com/eisbehr-/minoss) and creating own scripts.
-More information about this can be found in the [Minoss documentation](https://github.com/eisbehr-/minoss#create-an-own-module).
+This is an example module to show how to easily create own projects for [Minoss](https://github.com/dkern/minoss) and creating own scripts.
+More information about this can be found in the [Minoss documentation](https://github.com/dkern/minoss#create-an-own-module).
 
 
 ## Table Of Contents
@@ -43,15 +43,15 @@ $ npm install minoss-example
 This module will install a bunch of example scripts.
 An overview, by logical order:
 
-- [`example.js`](https://github.com/eisbehr-/minoss-example/blob/master/example.js) - basic example of a script
-- [`error.js`](https://github.com/eisbehr-/minoss-example/blob/master/error.js)   - return error messages on execution
-- [`config.js`](https://github.com/eisbehr-/minoss-example/blob/master/config.js)  - access configurations inside script
-- [`params.js`](https://github.com/eisbehr-/minoss-example/blob/master/params.js)  - access url parameters from within a script
-- [`async.js`](https://github.com/eisbehr-/minoss-example/blob/master/async.js)   - example of an asynchronous task
+- [`example.js`](https://github.com/dkern/minoss-example/blob/master/example.js) - basic example of a script
+- [`error.js`](https://github.com/dkern/minoss-example/blob/master/error.js)   - return error messages on execution
+- [`config.js`](https://github.com/dkern/minoss-example/blob/master/config.js)  - access configurations inside script
+- [`params.js`](https://github.com/dkern/minoss-example/blob/master/params.js)  - access url parameters from within a script
+- [`async.js`](https://github.com/dkern/minoss-example/blob/master/async.js)   - example of an asynchronous task
 
 
 ## Call an Example
-The execution of these example is [the same](https://github.com/eisbehr-/minoss#call-a-module-script) as for every module script.
+The execution of these example is [the same](https://github.com/dkern/minoss#call-a-module-script) as for every module script.
 Just call the name of the module and the name of the script by appending it to the request URL.
 
 ```TEXT
@@ -62,7 +62,7 @@ example:  http://localhost:8080/example/async
 
 ## Create an own Module
 Creating own modules for Minoss is quite simple.
-In the [`main documentation`](https://github.com/eisbehr-/minoss#create-an-own-module) you can find a more technically description.
+In the [`main documentation`](https://github.com/dkern/minoss#create-an-own-module) you can find a more technically description.
 Here we will just create a simple module as tutorial.
 
 
@@ -196,7 +196,7 @@ A [GitHub](https://github.com) account and possible an [npm](https://npmjs.com) 
 
 For this you need a [`package.json`](https://docs.npmjs.com/files/package.json) file inside your project.
 It should contain all information about your module and it's dependencies.
-You can take a look to the [package.json](https://github.com/eisbehr-/minoss-example/blob/master/package.json) of this module here.
+You can take a look to the [package.json](https://github.com/dkern/minoss-example/blob/master/package.json) of this module here.
 
 When you have added these file you are ready to publish your module.
 Create a GiHub account and a repository there and commit it. That's it! 
@@ -214,7 +214,7 @@ This helps to identify such modules and is needed for auto-loading these modules
 
 
 ## Bugs / Feature request
-Please [report](http://github.com/eisbehr-/minoss-example/issues) bugs and feel free to [ask](http://github.com/eisbehr-/minoss-example/issues) for new features directly on GitHub.
+Please [report](http://github.com/dkern/minoss-example/issues) bugs and feel free to [ask](http://github.com/dkern/minoss-example/issues) for new features directly on GitHub.
 
 
 ## License
